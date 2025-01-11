@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+    .header-menu {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .header-right-btn:last-of-type {
+        display: none;
+    }
+    .filters-wrapper {
+        max-width: 714px;
+    }
+    aside {
+        display: none;
+    }
+    .coin-status {
+        grid-template-columns: 60% 40% 14.8% 19.5%;
+        width: 74vw;
+    }
+    .third-column .inside-columns .second-inside-column .very-inside-columns {
+        grid-template-columns: 2.5vw 2.5vw;
+    }
+    .forth-column .inside-columns {
+        grid-template-columns: 7vw 7.5vw;
+    }
+    #special-column-size2 {
+        grid-template-columns: 3.5vw 3.5vw;
+    }
+    #special-column-size {
+        grid-template-columns: 3.7vw 3.8vw;
+    }
+    #last-inside-column {
+        grid-template-columns: .85vw .85vw;
+    }
+    .resp-column-size {
+        grid-template-columns: 2vw 1.8vw;
+    }
+    #special-resp-column-size {
+        grid-template-columns: .9vw .9vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger-menu-btn {
+        display: flex;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .filters {
+        margin-right: 0;
+    }
+    .filters-nav {
+        justify-content: flex-start;
+    }
+    .toggle-filters-btn span img {
+        transform: rotate(180deg);
+    }
+    .filters-wrapper {
+        transform: translateX(140%);
+    }
+    .filters-wrapper-transformed-small {
+        transform: translateX(0%);
+    }
+    .tools-wrapper {
+        position: absolute;
+        left: 36px;
+        margin-left: 7px;
+    }
+    .share-btn {
+        justify-self: flex-end;
+    }
+    .third-column .inside-columns .first-inside-column .very-inside-columns {
+        grid-template-columns: 3vw 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1495px) and (min-width: 1024px) {
+    .coin-status {
+        grid-template-columns: 60% 41% 22% 22.5%;
+        width: 49vw;
+    }
+    .coin-status-side-closed {
+        grid-template-columns: 62% 44% 15.1% 14%;
+        width: 73vw;
+    }
+    .third-column .inside-columns .first-inside-column .very-inside-columns {
+        grid-template-columns: 3vw 2.5vw;
+    }
+    .third-column .inside-columns {
+        grid-template-columns: 5.5vw 5.3vw;
+    }
+    .third-column .inside-columns .second-inside-column .very-inside-columns {
+        grid-template-columns: 2.65vw 2.65vw;
+    }
+    .forth-column .inside-columns {
+        grid-template-columns: 5vw 5vw;
+    }
+    #special-inner-forth-column {
+        grid-template-columns: 2.5vw 2.5vw;
+    }
+    .three-inside-columns {
+        grid-template-columns: 1.66vw 1.66vw 1.66vw;
+    }
+    #special-column-size2 {
+        grid-template-columns: 2.5vw 2.5vw;
+    }
+    #special-column-size {
+        grid-template-columns: 2.5vw 2.5vw;
+    }
+    #special-column-size .first-inside-column .very-inside-columns {
+        grid-template-columns: 1.25vw 1.25vw;
+    }
+    #last-inside-column {
+        grid-template-columns: .5vw .5vw;
+    }
+    .resp-column-size {
+        grid-template-columns: 1.5vw 1vw;
+    }
+    #special-resp-column-size {
+        grid-template-columns: .5vw .5vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .coin-status-side-closed {
+        grid-template-columns: 62% 44% 15.1% 14% !important;
+        width: 73vw !important;
+    }
+}
